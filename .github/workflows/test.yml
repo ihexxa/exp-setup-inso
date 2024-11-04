@@ -18,5 +18,6 @@ jobs:
       - uses: kong/setup-inso@v1
         with:
           inso-version: 9.3.3
+          compression: 'bzip'
       - name: Lint
         run: inso --version

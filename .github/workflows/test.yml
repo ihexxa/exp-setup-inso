@@ -2,7 +2,11 @@
 
 name: Test
 
-on: workflow_dispatch
+on:
+    workflow_dispatch:
+        inputs:
+          compression:
+            required: false
 
 jobs:
   Linux:

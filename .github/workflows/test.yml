@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v1
       - uses: kong/setup-inso@v1
         with:
-          inso-version: 9.3.3
-          compression: 'xz'
+          inso-version: 9.3.2
+        #   compression: 'xz'
       - name: Lint
         run: inso --version

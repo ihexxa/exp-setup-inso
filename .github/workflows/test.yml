@@ -18,6 +18,6 @@ jobs:
       - uses: kong/setup-inso@v1
         with:
           inso-version: 9.3.2
-        #   compression: 'xz'
+          compression: 'x'
       - name: Lint
         run: inso --version
